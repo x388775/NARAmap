@@ -1,0 +1,8 @@
+#body {
+  /*
+  height: 50%;
+  width: 90%;
+  */
+  padding: 10%
+}
+.smallPoint { stroke: black; stroke-width: 4; fill: crimson; r: 20; }
