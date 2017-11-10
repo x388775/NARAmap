@@ -1,8 +1,24 @@
-#body {
-  /*
-  height: 50%;
-  width: 90%;
-  */
-  padding: 10%
+html {
+  overflow: auto;
+  height:100%;
+  margin:0%;
 }
-.smallPoint { stroke: black; stroke-width: 4; fill: crimson; r: 20; }
+body {
+  
+  height: 100%;
+  /*
+  width: 100%;
+*/
+  padding: 10%;
+}
+.smallPoint
+{
+  /*stroke: black;
+   stroke-width: 4;
+    fill: crimson;
+    */
+}
+
+#genLabel{
+  height:20%; width:20%;
+}
