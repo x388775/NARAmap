@@ -6,17 +6,17 @@ body {
  }
 h1 {
   position: fixed;
-  font: 15px "Times New Roman", Times, serif; color: #FFFFFF;
+  font: 20px "Times New Roman", Times, serif; color: #FFFFFF;
   text-anchor: middle;
-  top: 0%;
+  top: 1%;
   left: 7%;
   }
   h2 {
     position: fixed;
-    font: 15px "Times New Roman", Times, serif; color: #FFFFFF;
+    font: 20px "Times New Roman", Times, serif; color: #FFFFFF;
     text-anchor: middle;
-    top: 0%;
-    left: 7%;
+    top: 1%;
+    right: 12.5%;
     }
 #wrapper1 {
     position: fixed;
@@ -25,6 +25,7 @@ h1 {
     width: 70%;
     height: 96%;
     z-index: 1;
+    overflow: hidden;
   }
 #wrapper2 {
     position: fixed;
@@ -34,10 +35,15 @@ h1 {
     right: 1%;
     height: 96%;
     z-index: 0;
+    overflow: hidden;
   }
 .headerBar {
-  position: absolute; width:100%; height: 5%; top:-3.5%;
-  background-color: #000000;
+  position: absolute; width:100%; height: 7%; top:-3.5%;
+  background-color: #000000; border: 1px solid black;
+  }
+  .headerBar1 {
+    position: absolute; width:100%; height: 7%; top:-3.5%;
+    background-color: #000000; border: 1px solid black;
   }
 .smallPoint {
    cursor: pointer; position: fixed; stroke: black;
@@ -52,6 +58,6 @@ h1 {
 #genLabel {
     cursor: pointer; height: 8%;
     right: 94%; top: 0%; position: fixed;
-    border: 2px solid black; border-radius: 25px;
+    border: 2px solid black; border-radius: 50px;
     background-color: white;
 }
